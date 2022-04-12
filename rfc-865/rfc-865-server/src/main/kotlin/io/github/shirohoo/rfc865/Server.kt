@@ -5,8 +5,8 @@ import java.util.concurrent.ExecutorService
 
 class Server(private val threadPool: ExecutorService) {
     fun run() {
-        ServerSocket(PORT, BACKLOG).use {
-            while (true) {
+        while (true) {
+            ServerSocket(PORT, BACKLOG).use {
                 threadPool.submit(Worker(QuoteRepository, it.accept()))
             }
         }
