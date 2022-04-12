@@ -46,8 +46,27 @@ Keep away from people who try to belittle your ambitions. Small people always do
 
 <br />
 
+## Run
+
+---
+
+1. run `rfc-865/rfc-865-server/src/main/kotlin/io/github/shirohoo/Main.kt`
+2. run `rfc-865/rfc-865-client/src/main/kotlin/io/github/shirohoo/Main.kt`
+
+<br />
+
 ## Implementation
 
 ---
+
+```shell
+No problem should ever have to be solved twice. -- Eric S. Raymond, How to become a hacker
+
+The problem is that Microsoft just has no taste. And I don't mean that in a small way, I mean that in a big way. -- Steve Jobs
+
+The purpose of abstraction is not to be vague, but to create a new semantic level in which one can be absolutely precise. -- Edsger Dijkstra
+
+Photography is painting with light. -- Eric Hamilton
+```
 
 <br />
